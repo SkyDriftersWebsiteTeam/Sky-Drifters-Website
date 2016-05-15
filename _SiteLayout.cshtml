@@ -42,25 +42,25 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="~/">DID</a>
+                <a class="navbar-brand" href="~/Default">The Drifters</a>
+                <a class="navbar-brand" href="~/WANMED">WANMED</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="~/WANMED">WANMED</a>
+                        <a href="~/About">The Faction</a>
                     </li>
                     <li>
-                        <a href="~/About">Forums</a>
-                    </li>
-                    <li>
-                        <a href="#">Archive</a>
+                        <a href="#">Dossier</a>
                     </li>
 					<li>
-                        <a href="~/Contact">Operations</a>
+                        <a href="~/Contact">Links</a>
+                    </li>
+                    <li>
+                        <a href="#">Member Area</a>
                     </li>
                 </ul>
-               <section>
                    <!-- Check for login, note i did not build this system but i wont try recoding it, if it works then ill leave it-->
                         @if (WebSecurity.IsAuthenticated) {
                             <ul class="nav navbar-nav navbar-right">
@@ -72,7 +72,6 @@
                                 <li><a href="~/Account/Login">Log in</a></li>
                             </ul>
                         }
-                </section>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -81,7 +80,7 @@
        
         <div class="row">
             <div class="col-md-2">
-                 <div class="well" id="drop" style="float: right">
+                 <div class="well">
                 @if (WebSecurity.IsAuthenticated) {
                             <a class="email btn btn-small btn-primary" href="~/Account/Manage" title="Manage">Your Account</a>
                             
@@ -99,7 +98,7 @@
             </div>
             </div>
         <div class="col-md-7 col-sm-12">
-            <img alt="Sky Drifters" src="https://images.cooltext.com/4678634.png"></img>
+            <a href="~/Default"><img alt="Sky Drifters" src="https://images.cooltext.com/4678634.png"></img></a>
             <div class="well">
             
         <div id="body">
@@ -112,6 +111,9 @@
         </div>
         </div>
         </div>
+            <div class="col-md-3 col-sm-12">
+                <iframe src="http://discordi.deliriousdrunkards.com/render?id=181393289411297281&theme=dark&join=true&abc=false&showall=true&toggle=false" width="300px" height="400px" frameborder="0"></iframe>
+            </div>
             </div>
         <footer>
             <div class="content-wrapper">
