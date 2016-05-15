@@ -14,7 +14,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-
+    
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -80,15 +80,8 @@
     </nav>
        
         <div class="row">
-            <div class="col-md-1">
-            </div>
-        <div class="col-md-7 col-sm-12">
-            <img alt="Sky Drifters" src="https://images.cooltext.com/4678634.png"></img>
-            <div class="well">
-            
-        <div id="body">
-            
-            <div class="well" id="drop" style="float: right">
+            <div class="col-md-2">
+                 <div class="well" id="drop" style="float: right">
                 @if (WebSecurity.IsAuthenticated) {
                             <a class="email btn btn-small btn-primary" href="~/Account/Manage" title="Manage">Your Account</a>
                             
@@ -104,6 +97,14 @@
                           
                         }
             </div>
+            </div>
+        <div class="col-md-7 col-sm-12">
+            <img alt="Sky Drifters" src="https://images.cooltext.com/4678634.png"></img>
+            <div class="well">
+            
+        <div id="body">
+            
+         
             @RenderSection("main", required: false)
             <section class="content-wrapper main-content clear-fix">
                 @RenderBody()
