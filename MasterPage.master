@@ -1,0 +1,44 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="WANMED_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html lang="en-us" xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+   <title>WANMED Home</title>
+    <link rel="stylesheet" type="text/css" href="/WANMED/Code/CSS/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="/WANMED/Code/CSS/nav.css" />
+    <link rel="stylesheet" type="text/css" href="/WANMED/Code/CSS/design.css" />
+    <link rel="stylesheet" type="text/css" href="/WANMED/Code/CSS/layout.css" />
+    <link rel="stylesheet" type="text/css" href="/WANMED/Code/CSS/tabs.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="ddmn">
+                <a href="#">Home</a>
+                <ul id="drop">
+                    <li><a href="overview.aspx">WANMED</a></li>
+                    <li><a href="/DID/index.htm">DID</a></li>
+                </ul>
+            </li>
+            <li><a href="overview.aspx">overview</a></li>
+            <li><a href="#">leadership</a></li>
+            <li><a href="careers.aspx">careers</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">news</a></li>
+            <li><a href="#">media</a></li>
+        </ul>
+    </nav>
+    <section>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    </section>
+</body>
+</html>
