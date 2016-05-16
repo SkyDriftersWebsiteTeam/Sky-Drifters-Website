@@ -42,20 +42,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="~/Default">The Drifters</a>
-                <a class="navbar-brand" href="~/WANMED">WANMED</a>
+                <a class="navbar-brand" href="~/Sky Drifters/Default">The Drifters</a>
+                <a class="navbar-brand" href="~/WANMED/">WANMED</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="~/About">The Faction</a>
+                        <a href="~/Sky Drifters/About">The Faction</a>
                     </li>
                     <li>
                         <a href="#">Dossier</a>
                     </li>
 					<li>
-                        <a href="~/Contact">Links</a>
+                        <a href="~/Sky Drifters/Contact">Links</a>
                     </li>
                     <li>
                         <a href="#">Member Area</a>
@@ -64,12 +64,12 @@
                    <!-- Check for login, note i did not build this system but i wont try recoding it, if it works then ill leave it-->
                         @if (WebSecurity.IsAuthenticated) {
                             <ul class="nav navbar-nav navbar-right">
-                               <li><a class="email" href="~/Account/Manage" title="Manage">Hello, @WebSecurity.CurrentUserName</a></li>
+                               <li><a class="email" href="~/Sky Drifters/Account/Manage" title="Manage">Hello, @WebSecurity.CurrentUserName</a></li>
                             </ul>
                         } else {
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="~/Account/Register"><span class="glyphicon glyphicon-user"></span>Register</a></li>
-                                <li><a href="~/Account/Login">Log in</a></li>
+                                <li><a href="~/Sky Drifters/Account/Register"><span class="glyphicon glyphicon-user"></span>Register</a></li>
+                                <li><a href="~/Sky Drifters/Account/Login">Log in</a></li>
                             </ul>
                         }
             </div>

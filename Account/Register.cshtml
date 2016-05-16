@@ -5,7 +5,7 @@
 }
 
 @{
-    Layout = "~/_SiteLayout.cshtml";
+    Layout = "~/Sky Drifters/_SiteLayout.cshtml";
     Page.Title = "Register";
 
     // Initialize general page variables
@@ -70,7 +70,7 @@
                         // Navigate back to the homepage and exit
                         WebSecurity.Login(email, password);
 
-                        Response.Redirect("~/");
+                        Response.Redirect("~/Sky Drifters");
                     }
                 } catch (System.Web.Security.MembershipCreateUserException e) {
                     ModelState.AddFormError(e.Message);
