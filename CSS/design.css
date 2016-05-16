@@ -1,32 +1,40 @@
 ﻿body
 {
-    background-image:url("/DID/Sprites");
+    background-image:url("/WANMED/Sprites/cloudship.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color:black;
+    background-color:blue;
 }
 p
 {
-    font-family: 'Times New Roman', arial, sans-serif;
+    font-family: arial, sans-serif;
     color: black;
     font-size: 15px;
     text-align:left;
-    margin-left:50px;
-    margin-right:50px;
+    margin:auto;
+    padding:8px;
 }
 h1
 {
-    font-family: 'Times New Roman', arial, sans-serif;
+    font-family: arial, sans-serif;
     text-align:center;
     color:black;
-    font-size: 15px;
+    font-size: 30px;
+     font-weight: 850;
+
 }
 section
 {
     background-color: white;
+}
+article
+{
+    margin:auto;
+    width:1000px;
+    background-color:lightgrey;
 }
 pre
 {
@@ -34,4 +42,7 @@ pre
     font-family: 'Times New Roman', arial, sans-serif;
     color: black;
     font-size: 15px;
+    text-align:left;
+    margin:auto;
+    padding:8px;
 }
