@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Virtuazation</title>
+    <!--<base href="https://virtuazation.github.io/website/">-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="projects of games and whatnot">
+    <meta name="keywords" content="HTML,CSS,Javascript">
+    <meta name="Programmer" content="Jonathan Thomason">
+    <link rel="stylesheet" type="text/css" href="template/StyleSheet.css" media="screen" />
+</head>
+<body>
+
+
+    <header>
+        <h1>Virtuazation</h1>
+        <p>Welcome to our website!</p>
+    </header>
+
+
+    <nav><!--NAVBAR-->
+        <ul>
+            <li><button type="button" class="page" onclick="page('home')">HOME</button></li>
+            <li><button type="button" class="page">PROJECTS</button></li>
+            <li><button type="button" class="page" onclick="about()">ABOUT</button></li>
+            <li><button type="button" class="page" onclick="contact()">CONTACT</button></li>
+            <li class="right"><button type="button" id="search" onclick="toggle_search()"></button></li>
+        </ul>
+    </nav>
+
+        <div id="announcement"></div>
+        <section id="content"></section>
+        <div id="marker"></div>
+
+
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="cardinal/junction.js"></script>
+
+
+</body>
+</html>
