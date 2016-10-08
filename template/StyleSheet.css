@@ -3,6 +3,7 @@ body {
     text-align: justify;
     font-family: 'Trebuchet MS', Arial, Arial, Helvetica, sans-serif;
     font-size: 15px;
+    background-image: url("WA background.jpeg");
     background-color: #a3a3a3;
     color: black;
 }
