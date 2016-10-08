@@ -5,6 +5,8 @@ body {
     font-size: 15px;
     background-image: url("/template/WA background.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     background-color: #a3a3a3;
     color: black;
 }
