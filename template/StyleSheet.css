@@ -6,7 +6,7 @@ body {
     background-image: url("WA background.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-color: #a3a3a3;
     color: black;
 }
