@@ -1,0 +1,113 @@
+/*general look of the website*/
+body {
+    text-align: justify;
+    font-family: 'Trebuchet MS', Arial, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #a3a3a3;
+    color: black;
+}
+
+/*title of the website*/
+header, #announcement {
+    text-align: center;
+}
+
+
+/*navbar style*/
+nav {
+    text-align: left;
+    width: 100%;
+    list-style: none;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+    nav li {
+        margin: 0;
+        padding: 0 2px;
+        display: inline-block;
+    }
+
+        nav li .page {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            -o-transition-duration: 0.4s;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            -moz-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        nav li button:hover {
+            color: #c00;
+            background-color: #E4E4E4;
+        }
+
+
+section {
+    width: 100%;
+    margin: 8px auto;
+    padding: 5px 0;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+
+nav .right {
+    float:right;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 1%;
+}
+
+nav li #search {
+    text-decoration: none;
+    padding: 45% 45%;
+}
+
+#search {
+    image-rendering: auto;
+    list-style: none;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    background-size: contain;
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav li.right #search:hover {
+    background-color: #f2f2f2;
+    -moz-transition-duration:0.8s;
+    -o-transition-duration:0.8s;
+    -webkit-transition-duration: 0.8s; /* Safari */
+    transition-duration: 0.8s;
+    cursor: pointer;
+    -o-transform:  rotate(-90deg);
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    -moz-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+
+
+/*XML PAGE LAYOUT*/
+HEADING {
+    text-align: center;
+    display: block;
+}
+
+TESTER {
+    text-indent: 50px;
+    color: blue;
+    display: block;
+}
