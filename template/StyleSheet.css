@@ -1,9 +1,8 @@
 /*general look of the website*/
-@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* only needed once */
-
-#content browser{margin-right:-14px!important;overflow-y:scroll;overflow-x:hidden;}
 
 body {
+    overflow-y:scroll;
+    overflow-x:hidden;
     text-align: justify;
     font-family: 'Trebuchet MS', Arial, Arial, Helvetica, sans-serif;
     font-size: 15px;
