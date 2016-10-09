@@ -7,7 +7,7 @@ function startup() {
      *available commands:
      *    [1/"announcement"] , [definition] —— announcement
     */
-    //admin_command(1, "This website is currently under development");
+    admin_command(1, "Our website is currently under heavy development!");
 
     //default startup page:
     page("home");
