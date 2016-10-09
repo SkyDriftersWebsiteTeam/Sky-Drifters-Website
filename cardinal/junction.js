@@ -10,6 +10,9 @@ function page(type) {
     if (type === "about") {
         $("#content").load("content/about.xml");
     }
+    if (type === "contact") {
+        $("#content").load("content/contact.xml");
+    }
 }
 
 
