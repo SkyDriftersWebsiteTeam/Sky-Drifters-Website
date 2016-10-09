@@ -1,8 +1,7 @@
 /*general look of the website*/
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* only needed once */
+
+#content browser{margin-right:-14px!important;overflow-y:scroll;overflow-x:hidden;}
 
 body {
     text-align: justify;
