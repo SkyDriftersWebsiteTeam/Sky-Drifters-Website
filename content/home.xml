@@ -2,15 +2,5 @@
 <?xml-stylesheet type="text/css" href="template/StyleSheet.css"?>
 <note>
   <HEADING>Home</HEADING>
-  <TESTER>
-Nulla vel quam ex. Aliquam rhoncus diam eu accumsan auctor. Mauris eget nibh molestie, porta orci eget, hendrerit risus. Praesent vitae felis tempor, accumsan ligula at, consequat orci. Nulla at eros sit amet nisi tempus laoreet. Cras lacinia lectus commodo, aliquam magna a, lacinia ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae mattis nulla.
-
-Fusce ut tempor odio. Cras massa massa, hendrerit a metus eu, facilisis elementum quam. Donec mattis, massa eu ultricies elementum, lorem purus imperdiet mi, et tincidunt elit purus at neque. Suspendisse id luctus ex. Phasellus a odio pretium, fringilla est sit amet, commodo mi. Duis rhoncus aliquet augue, sit amet semper nisi auctor sit amet. Mauris eget porttitor diam. Mauris condimentum, sapien sed blandit iaculis, urna elit accumsan lacus, sit amet congue odio odio eu arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc arcu odio, ornare quis orci in, pretium feugiat mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed eu tincidunt purus. Ut laoreet ex vel lacus finibus vestibulum.
-
-Ut vel iaculis mauris. Vestibulum hendrerit dignissim molestie. Suspendisse at hendrerit magna. Vestibulum et nulla pulvinar, pharetra tellus eu, fermentum lectus. Pellentesque vehicula diam nisi, in rutrum libero vulputate sit amet. Suspendisse in lobortis tellus. Maecenas gravida accumsan magna quis interdum. Nam egestas tortor sed bibendum rutrum. Praesent euismod nibh eu enim condimentum maximus. Pellentesque lorem massa, hendrerit quis massa id, fringilla pulvinar nisl. Quisque feugiat vestibulum tempor. Nullam ac rutrum neque.
-
-Curabitur eleifend bibendum ligula, nec lobortis nunc imperdiet vitae. Praesent vitae turpis efficitur, accumsan turpis vitae, rhoncus diam. Cras id augue leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec iaculis vulputate risus posuere fringilla. Duis purus metus, tempus quis turpis et, condimentum fringilla nulla. Mauris feugiat diam velit, ut pellentesque tortor malesuada sit amet. Praesent sodales urna tellus, et imperdiet lacus convallis sit amet. Aenean eget luctus justo, ac condimentum arcu. Morbi placerat quam at erat eleifend blandit. Proin faucibus eros justo, nec condimentum urna facilisis nec. Morbi ante nulla, pulvinar in sapien eget, molestie hendrerit arcu. Nullam a convallis lorem, et imperdiet arcu. Praesent eget elit ut lectus molestie blandit.
-
-Maecenas placerat, risus eu viverra tincidunt, odio odio imperdiet dolor, a rutrum elit augue quis nisl. Donec quis ornare ex. Maecenas mauris urna, placerat non lorem id, ultricies dignissim ipsum. Sed fringilla eleifend iaculis. Morbi ante ante, cursus non augue sit amet, porttitor tincidunt eros. Pellentesque accumsan, turpis nec ullamcorper consequat, sapien erat finibus nisl, vitae molestie tortor erat ac massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut eget justo mollis, consequat neque nec, vulputate nulla. Duis nunc erat, mattis ut tortor a, facilisis semper tellus. Praesent sollicitudin volutpat lacus et efficitur. 
-  </TESTER>
+  <CONTENT><a href="https://w-a.github.io/nn">WANN</a></CONTENT>
 </note>
