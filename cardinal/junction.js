@@ -7,6 +7,9 @@ function page(type) {
     if (type === "home") {
         $("#content").load("content/home.xml");
     }
+    if (type === "about") {
+        $("#content").load("content/about.xml");
+    }
 }
 
 
