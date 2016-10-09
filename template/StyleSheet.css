@@ -100,16 +100,3 @@ nav .right #search:hover {
     -moz-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
-
-
-
-/*XML PAGE LAYOUT*/
-HEADING {
-    text-align: center;
-    display: block;
-}
-
-TESTER {
-    text-indent: 50px;
-    display: block;
-}
