@@ -1,4 +1,9 @@
 /*general look of the website*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     text-align: justify;
     font-family: 'Trebuchet MS', Arial, Arial, Helvetica, sans-serif;
