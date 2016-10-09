@@ -72,7 +72,7 @@ nav .right {
 
 nav li #search {
     text-decoration: none;
-    padding: 45% 45%;
+    padding: 20px;
 }
 
 #search {
@@ -87,7 +87,7 @@ nav li #search {
     background-position: center;
 }
 
-nav li.right #search:hover {
+nav .right #search:hover {
     background-color: #f2f2f2;
     -moz-transition-duration:0.8s;
     -o-transition-duration:0.8s;
