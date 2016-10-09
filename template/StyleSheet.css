@@ -1,11 +1,11 @@
 /*general look of the website*/
 
 body {
-    overflow-y:scroll;
-    overflow-x:hidden;
+    overflow-y:scroll; overflow-x:hidden; /*for mobile compatibility*/
     text-align: justify;
     font-family: 'Trebuchet MS', Arial, Arial, Helvetica, sans-serif;
     font-size: 15px;
+    /*background image controls*/
     background-image: url("#");
     background-repeat: no-repeat;
     background-size: cover;
